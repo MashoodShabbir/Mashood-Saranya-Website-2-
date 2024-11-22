@@ -1,0 +1,102 @@
+* {
+    text-align: center;
+    color: white;
+}
+
+.note {
+    font-size: 20px; 
+}
+
+body{
+    background-color: rgb(169, 170, 172);
+}
+
+
+.main-div {
+    position: relative;
+}
+
+.main-div img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+  }
+  
+.images {
+    height: 600px;
+    width: auto;
+
+}
+
+.imgs-div {
+    display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 900px 900px;
+      gap: 30px;
+      margin-left: 30px;
+      margin-top: 30px;
+     
+}
+
+
+
+h1 {
+    font-weight: 2000px;
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0px;
+    width: 100%;
+    
+}
+
+h2 {
+    font-weight: 200px;
+    font-size: 4rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-top: 0px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    
+}
+
+h3 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-top: 0px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.rsvp {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-top: 0px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+.link  {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-top: 0px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
